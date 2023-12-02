@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+let x = parseInt(prompt("digite um numero: "));
+let y = parseInt(prompt("digite um numero maior que o primeiro: "));
+let soma = 0;
+let num = x;
+
+while (num <= y) {
+    if (num % 2 !== 0) {
+        soma += num;
+    }
+    num = num + 1;
+}
+if (x < y) {
+    alert(` ${soma}`);
+}
+
+
+
+    </script>
+</body>
+</html>
